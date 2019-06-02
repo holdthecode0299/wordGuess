@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+    
+    <div class="game">
+        <h1>Guess What Letter I'm Thinking Of</h1>
+
+        <div class="scores">
+            <strong>Wins: </strong><span id="wins">0</span>
+            <br><br>
+            <strong>Losses: </strong><span id="losses"></span>
+            <br><br>
+            <strong>Guesses Left: </strong><span id="guesses-left"></span>
+            <br><br>
+            <strong>Letters Guessed:</strong><span id="guesses"></span>
+            <br>
+                <div class="new">
+                    <input type="reset" value="New Game">
+                </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
